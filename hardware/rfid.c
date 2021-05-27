@@ -50,7 +50,7 @@ void RFID_Init(void)
 	GPIO_PinAFConfig(GPIOA, GPIO_PinSource11, GPIO_AF_USART6);
 	GPIO_PinAFConfig(GPIOA, GPIO_PinSource12, GPIO_AF_USART6);
 
-  // GPIO for TX and RX
+  // GPIO for TX:PA11 and RX:PA12
   GPIO_InitTypeDef  GPIO_InitStructure;
   GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11 | GPIO_Pin_12 ;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
