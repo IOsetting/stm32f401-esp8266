@@ -29,7 +29,7 @@ Refer below table to connect ESP-01S pins with STM32 pins:
 
 Use ST-Link to upload the code to STM32.  
 
-Connect ST-Link with STM32F103C8T6 Development Board
+Connect ST-Link with STM32 Development Board
 ```
 G   -- GND
 CLK -- SWCLK
